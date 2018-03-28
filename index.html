@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <ul>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+            <li class="box"></li>
+        </ul>
+    </div>
+    <div class="refresh"><button onClick="location.reload()">Reload</button></div>
+
+    <div id="alertOuter" style="display: none;">
+        <div class="alertInner1">
+            <div class="alertInner">
+                <p id="alertContent"></p><button onClick="location.reload()">Reload</button></div>
+        </div>
+    </div>
+
+    <div id="thinking" style="display:none;">
+        <div class="alertInner1">
+            <div class="alertInner">
+                Thinking<span id="thinkDot"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
